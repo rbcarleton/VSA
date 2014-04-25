@@ -39,8 +39,8 @@ a primary activity of the VSA. These pairs are managed by system 3.
 Recursion
 
 The entire VSA is also an operation and acts as a wrapper around all
-the other sub- systems. It represents the upward facing activity of
-the VSA as a whole, and may be subordinate to another VSA.
+the other sub-systems. It represents the upward facing activity of the
+VSA as a whole, and may be subordinate to another VSA.
 
 Notes
 
