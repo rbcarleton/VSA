@@ -55,6 +55,6 @@ class VSA
         else
             return actuality / capability
         end
-	end
+    end
     
 end
