@@ -10,6 +10,19 @@ class TestVSA < Test::Unit::TestCase
     def teardown
         ## Nothing really
     end
+ 
+    def test_setters_and_getters
+        @myvsa.cost_center = false
+        @myvsa.actuality = 200.0
+        @myvsa.capability = 500.0
+        @myvsa.potentiality = 1000.0
+        assert_equal(200.0, @myvsa.actuality )
+        assert_equal(500.0, @myvsa.capability )
+        assert_equal(1000.0, @myvsa.potentiality )
+        assert_equal(false, @myvsa.cost_center )
+        @myvsa.cost_center = true
+        assert_equal(true, @myvsa.cost_center )
+    end
     
     # Profit center
     # See:  Figure 29 on page 165
