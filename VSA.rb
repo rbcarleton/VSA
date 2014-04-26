@@ -1,3 +1,9 @@
+# Viable System Agent
+#
+# Both a viable system and operation (system 1). Each VSA starts an Executive (5),
+# Planner (4) and Manager (3).  A VSA is also paired with a Supervisor (2) in its
+# role as an operation.
+
 class VSA
 
     # setters and getters
