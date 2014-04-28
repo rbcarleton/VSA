@@ -3,6 +3,9 @@
 # Both a viable system and operation (system 1). Each VSA starts an Executive (5),
 # Planner (4) and Manager (3).  A VSA is also paired with a Supervisor (2) in its
 # role as an operation.
+require "VSAExecutive"
+require "VSAPlanner"
+require "VSAManager"
 
 class VSA
 
@@ -34,6 +37,9 @@ class VSA
         @capability = capability
         @potentiality = potentiality
         @cost_center = false
+        @my_executive = VSAExecutive.new(1)
+        @my_planner = VSAPlanner.new
+        @my_manager = VSAManager.new
     end
  
     #Calculate the latency
