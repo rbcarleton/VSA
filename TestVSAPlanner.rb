@@ -1,4 +1,4 @@
-require "VSAPlanner"
+require_relative "VSAPlanner"
 require "test/unit"
 
 class TestVSAPlanner < Test::Unit::TestCase

@@ -3,9 +3,9 @@
 # Both a viable system and operation (system 1). Each VSA starts an Executive (5),
 # Planner (4) and Manager (3).  A VSA is also paired with a Supervisor (2) in its
 # role as an operation.
-require "VSAExecutive"
-require "VSAPlanner"
-require "VSAManager"
+require_relative "VSAExecutive"
+require_relative "VSAPlanner"
+require_relative "VSAManager"
 
 class VSA
 

@@ -1,4 +1,4 @@
-require "VSA"
+require_relative "VSA"
 require "test/unit"
 
 class TestVSA < Test::Unit::TestCase

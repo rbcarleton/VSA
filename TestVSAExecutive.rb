@@ -1,4 +1,4 @@
-require "VSAExecutive"
+require_relative "VSAExecutive"
 require "test/unit"
 
 class TestVSAExecutive < Test::Unit::TestCase

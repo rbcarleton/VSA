@@ -1,4 +1,4 @@
-require "VSAManager"
+require_relative "VSAManager"
 require "test/unit"
 
 class TestVSAManager < Test::Unit::TestCase
