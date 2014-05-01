@@ -5,4 +5,5 @@ task :test do
  ruby "TestVSAExecutive.rb"
  ruby "TestVSAPlanner.rb"
  ruby "TestVSAManager.rb"
+ ruby "TestVSASupervisor.rb"
 end
