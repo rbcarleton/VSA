@@ -32,10 +32,7 @@ class VSA
     attr_writer :cost_center
 
     
-    def initialize(actuality, capability, potentiality)
-        @actuality = actuality
-        @capability = capability
-        @potentiality = potentiality
+    def initialize()
         @cost_center = false
         @my_executive = VSAExecutive.new(1)
         @my_planner = VSAPlanner.new
