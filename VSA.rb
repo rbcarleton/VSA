@@ -33,7 +33,6 @@ class VSA
 
     
     def initialize()
-        @cost_center = false
         @my_executive = VSAExecutive.new(1)
         @my_planner = VSAPlanner.new
         @my_manager = VSAManager.new
