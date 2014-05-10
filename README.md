@@ -1,12 +1,6 @@
 VSA
 ===
 
-Viable System Agent:
-
-Both a viable system and operation (system 1).  Each VSA starts
-an Executive (5), Planner (4) and Manager (3).  A VSA is also 
-paired with a Supervisor (2) in its role as an operation.
-
 The Viable System Agent, or VSA is a software implementation of
 the Viable System Model (VSM), a model for autonomous systems
 developed by Stafford Beer. The VSA provides structure,
