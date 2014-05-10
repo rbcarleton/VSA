@@ -4,7 +4,7 @@ require "test/unit"
 class TestVSA < Test::Unit::TestCase
     
     def setup
-        @myvsa = VSA.new()
+        @myvsa = VSA.new
     end
     
     def teardown
