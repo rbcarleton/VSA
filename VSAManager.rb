@@ -18,8 +18,6 @@ class VSAManager
     attr_writer :operations_compare
     
     def initialize
-        @cost_center = false
-        @operations_compare = true
     end
     
 end

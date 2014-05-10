@@ -4,7 +4,7 @@ require "test/unit"
 class TestVSAExecutive < Test::Unit::TestCase
     
     def setup
-        @my_executive = VSAExecutive.new(5)
+        @my_executive = VSAExecutive.new
     end
     
     def teardown

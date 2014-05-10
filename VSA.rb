@@ -33,7 +33,7 @@ class VSA
 
     
     def initialize()
-        @my_executive = VSAExecutive.new(1)
+        @my_executive = VSAExecutive.new
         @my_planner = VSAPlanner.new
         @my_manager = VSAManager.new
     end

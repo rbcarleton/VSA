@@ -15,8 +15,6 @@ class VSAExecutive
     attr_reader :name
     attr_writer :name
 
-    def initialize(interval)
-        @cost_center = false
-        @operations_compare = true
+    def initialize()
     end
 end
