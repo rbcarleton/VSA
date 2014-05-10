@@ -28,6 +28,7 @@ experiment with the VSA. Consider the following transcript. You
 need to change directories into the directory containing the
 distribution prior to running these commands.
 
+<
 $ irb
 irb(main):001:0> require_relative "VSA"
 => true
@@ -56,3 +57,4 @@ irb(main):012:0> myvsa.latency
 irb(main):013:0> myvsa.performance
 => 0.2
 irb(main):014:0>
+>
