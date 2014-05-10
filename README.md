@@ -1,7 +1,7 @@
 VSA
 ===
 
-Viable System Agent
+Viable System Agent:
 
 Both a viable system and operation (system 1).  Each VSA starts an Executive (5),
 Planner (4) and Manager (3).  A VSA is also paired with a Supervisor (2) in its role as
@@ -15,6 +15,14 @@ VSA is used to represent both viable systems and subordinate
 viable systems. This is called recursion in the VSM. The VSA is
 intended to facilitate creating and managing autonomous software
 systems.
+
+Testing this distribution:
+
+1) Change directories into the directory containing the distribution.
+You should see the file, Rakefile in the top of the distribution.
+
+2) Type the "rake" command. This will run all the unit testing for the
+distribution.
 
 Viable System Terminology:
 
