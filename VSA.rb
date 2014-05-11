@@ -6,6 +6,7 @@
 require_relative "VSAExecutive"
 require_relative "VSAPlanner"
 require_relative "VSAManager"
+require_relative "VSASupervisor"
 
 class VSA
 
@@ -36,6 +37,7 @@ class VSA
         @my_executive = VSAExecutive.new
         @my_planner = VSAPlanner.new
         @my_manager = VSAManager.new
+        @my_manager = VSASupervisor.new
     end
  
     #Calculate the latency
